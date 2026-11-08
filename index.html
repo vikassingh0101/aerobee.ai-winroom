@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Auto-logs every call. Coaches reps live. Keeps your CRM clean. All without your team lifting a finger." />
+    <meta property="og:title" content="Winroom by Aerobee" />
+    <meta property="og:description" content="Your reps sell. Winroom handles the rest. Auto-logs every call. Coaches reps live. Keeps your CRM clean." />
+    <title>Winroom by Aerobee — Your reps sell. Winroom handles the rest.</title>
+    
+    <!-- Google Fonts: Fraunces, Plus Jakarta Sans, JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'warm-black': '#0F0D0A',
+              'honey': '#F5A623',
+              'honey-light': '#FDD878',
+              'honey-dark': '#C97D0E',
+              'beeswax': '#FAF7F0',
+              'warm-grey': '#A89F8C',
+              'warm-card': '#171410',
+              'warm-border': '#2E271F',
+            },
+            fontFamily: {
+              fraunces: ['Fraunces', 'serif'],
+              sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+              mono: ['"JetBrains Mono"', 'monospace'],
+            },
+          },
+        },
+      }
+    </script>
+    <link rel="stylesheet" href="/index.css">
+  </head>
+  <body class="bg-[#0F0D0A] text-[#FAF7F0] font-sans antialiased selection:bg-[#F5A623] selection:text-black">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

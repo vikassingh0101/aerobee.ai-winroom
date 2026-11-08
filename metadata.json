@@ -1,0 +1,8 @@
+{
+  "name": "Remix Winroom by Aerobee",
+  "description": "AI sales enablement tool that auto-logs calls, pre and post call coaching to reps, and keeps your CRM clean.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
